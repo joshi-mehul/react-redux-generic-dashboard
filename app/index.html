@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title><%= htmlWebpackPlugin.options.appName %></title>
+
+    <meta name="application-name" content="<%= htmlWebpackPlugin.options.appName %>">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="<%= htmlWebpackPlugin.options.appName %>">
+
+    <link href="manifest.json" rel="manifest">
+    <link href="humans.txt" rel="author">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <% if (htmlWebpackPlugin.options.isDevelopment) { %>
+    <script type="text/javascript" src="/vendors.dll.js"></script>
+    <% } %>
+  </body>
+</html>

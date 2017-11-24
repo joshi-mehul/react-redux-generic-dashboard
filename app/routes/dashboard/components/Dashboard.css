@@ -1,0 +1,14 @@
+@import '../../../styles/variables.css';
+
+.root {
+  padding: var(--rootPadding);
+  max-width: var(--containerMaxWidth);
+  margin: 0 auto;
+}
+
+.loginContainer {
+  background: #eee;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10;
+}

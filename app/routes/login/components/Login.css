@@ -1,0 +1,10 @@
+.root {
+  padding: 2rem;
+}
+
+.form {
+  background: #ccc;
+  border: 3px solid #eee;
+  margin: 1rem 0;
+  padding: 1rem;
+}
