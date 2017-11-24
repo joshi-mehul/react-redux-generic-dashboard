@@ -17,6 +17,16 @@ This repo is going to be dashboard web application with modern web development t
 
 
 ```bash
+To start project
+yarn start
+To generate production build
+build
+For static type testing
+flow
+For quality checking of code
+lint
+For test executions
+test
 
 ```
 ## License
